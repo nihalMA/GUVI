@@ -3,6 +3,7 @@ int main()
 {
     int n,k,i,sum=0;
     int a[10];
+    printf("Enter the Limit");
     scanf("%d",&n);
     if(n>0)
     {
