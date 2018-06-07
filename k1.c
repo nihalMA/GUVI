@@ -3,7 +3,7 @@ int main()
 {
     int n,k,i,sum=0;
     int a[10];
-    printf("Enter the Limit");
+    printf("Input:");
     scanf("%d",&n);
     if(n>0)
     {
@@ -16,7 +16,7 @@ int main()
     {
         sum=sum+a[i];
     }
-    printf("%d",sum);
+    printf("Output:%d",sum);
     }
     else
     {
