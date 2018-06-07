@@ -2,7 +2,8 @@
 int main()
 {
     int n,i,sum=0;
-    scanf("Input:%d",&n);
+    printf("Input:");
+    scanf("%d",&n);
     if(n>0)
     {
     for(i=0;i<n;i++)
