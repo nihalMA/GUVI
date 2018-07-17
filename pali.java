@@ -6,7 +6,7 @@ class pali
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt(),t=0,r=0;
         int p=n;
-        if(n<=1000)
+        if(n>=1000||n>=0)
         {
         while(n>0)
         {
